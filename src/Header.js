@@ -1,5 +1,6 @@
 import { render } from '@testing-library/react';
 import React, {Component} from 'react';
+import { Link } from 'react-router-dom';
 import './Header.css';
 
 
@@ -13,7 +14,7 @@ class New extends Component{
                         <button id="login">Login</button>
                         <button id="register">Register</button>
                     </div>
-                    <div id="inside"><button id="continue">Click to continue</button></div>
+                    <div id="inside"><Link to="/post">Click to continue</Link></div>
                 </div>
                 
             </div>

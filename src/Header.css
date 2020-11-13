@@ -1,3 +1,22 @@
+#main{
+    background-image: url(/images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#inside{
+    padding: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+#continue{
+    padding: 1%;
+    background-color: burlywood;
+}
+
 .new{
     color: black;
     font-size: 60px;

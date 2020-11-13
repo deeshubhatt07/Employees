@@ -4,7 +4,6 @@ class Services extends Component{
     render(){
         return(
             <div>
-                deeshu chutiya
             </div>
         )
     }

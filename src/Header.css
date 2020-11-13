@@ -1,0 +1,33 @@
+.new{
+    color: black;
+    font-size: 60px;
+    background-color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+#login{
+    padding: 10px;
+    margin: 10px;
+}
+
+#register{
+    margin: 10px;
+    padding: 10px;
+    text-align: right;
+}
+
+.head{
+    background-color: gray;
+    text-align: right;
+    padding: 5px;
+}
+.s{
+    margin: 12px;
+}
+
+.header{
+    background-color: darkslategrey;
+    text-align: right;
+    padding: 4px;
+}

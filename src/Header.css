@@ -1,11 +1,11 @@
 #main{
-    background-image: url(/images/background.jpg);
+    background-image: url(/images/sample.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 #inside{
-    padding: 20%;
+    padding: 17%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +14,12 @@
 
 #continue{
     padding: 1%;
-    background-color: burlywood;
+    background-color: darkslategrey;
 }
 
 .new{
     color: black;
     font-size: 60px;
-    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -28,12 +27,16 @@
 #login{
     padding: 10px;
     margin: 10px;
+    color: white;
+    background-color: darkslategrey;
 }
 
 #register{
     margin: 10px;
     padding: 10px;
     text-align: right;
+    color: white;
+    background-color: darkslategrey;
 }
 
 .head{
@@ -46,7 +49,6 @@
 }
 
 .header{
-    background-color: darkslategrey;
     text-align: right;
     padding: 4px;
 }

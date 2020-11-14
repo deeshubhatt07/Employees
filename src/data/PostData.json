@@ -21,24 +21,31 @@
         "depart": "IT"
     },
     {
-        "id":3,
+        "id":4,
         "name":"Yogendra Srivastav",
         "age": "29",
         "sal": "30k",
         "depart":"Sales"
     },
     {
-        "id":3,
+        "id":5,
         "name":"Neel Kukreti",
         "age": "22",
         "sal": "60k",
         "depart":"Management"
     },
     {
-        "id":3,
+        "id":6,
         "name":"Prashant sharma",
         "age": "21",
         "sal": "15k",
         "depart":"Sales"
+    },
+    {
+        "id": 7,
+        "name":"Divya Kumari",
+        "age":"15",
+        "sal": "19k",
+        "depart":"Management"
     }
 ]

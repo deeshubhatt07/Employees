@@ -3,6 +3,7 @@ import '../components/Postlists.css';
 import PostData from '../data/PostData.json';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faPlus , faTrash } from '@fortawesome/free-solid-svg-icons';
+import {BrowserRouter, Route} from 'react-router-dom';
 
 class Postlists extends Component{
     render(){
@@ -16,9 +17,9 @@ class Postlists extends Component{
                                 <p>Age: {Details.age} Salary:{Details.sal}</p>    
                             </div>
                             <div id="icon">
-                                <FontAwesomeIcon icon={faPlus}/> <span> </span>
-                                <FontAwesomeIcon icon={faEdit}/>  <span> </span>
-                                <FontAwesomeIcon icon={faTrash}/>
+                                <span className="icons"> <FontAwesomeIcon icon={faPlus}/> </span>
+                                <span className="icons"> <FontAwesomeIcon icon={faEdit}/> </span>
+                                <span className="icons"> <FontAwesomeIcon icon={faTrash}/> </span>
                             </div>    
                         </div>
                     )

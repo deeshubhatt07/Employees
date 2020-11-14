@@ -20,7 +20,7 @@
 .new{
     color: black;
     font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
     text-align: center;
 }
 
@@ -50,5 +50,5 @@
 
 .header{
     text-align: right;
-    padding: 4px;
+    padding: 2px;
 }

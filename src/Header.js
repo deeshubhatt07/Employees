@@ -8,7 +8,7 @@ class New extends Component{
     render(){
         return(
             <div id="main">
-                <span className = 'new'>EMPLOYEES</span><br/>
+                <span className = 'new'>Reacter</span><br/>
                 <div>
                     <div className="header"> 
                         <button id="login">Login</button>

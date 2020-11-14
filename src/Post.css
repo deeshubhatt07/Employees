@@ -5,7 +5,9 @@
 }
 
 #main2{
-    background-color: rgb(235, 217, 183);
+    background-image: url(/images/sample.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #navbar{

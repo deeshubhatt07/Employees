@@ -7,7 +7,7 @@ import { faEdit, faPlus , faTrash } from '@fortawesome/free-solid-svg-icons';
 class Postlists extends Component{
     render(){
         return(
-            <div>
+            <div id="main3">
                 {PostData.map((Details, index) => {
                     return(
                         <div id="postitems">
